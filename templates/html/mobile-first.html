@@ -3,30 +3,146 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- set the character set -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- first step to a responsive site -->
-    <title>HTML Skeleton</title>
+    <title>Mark Wieting – Journalist</title>
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-    <!-- Your styles should be called here -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      	<![endif]-->
+    <!-- Your styles should be called here -->
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-    <!-- YOUR CONTENT GOES HERE -->
 
+    <header class="site-header">
+        <div class="container">
+            <span class="header-label">Investigative Journalist · Madrid</span>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO / INTRO -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-photo">
+                    <img src="headshot.jpg" alt="Mark Wieting, investigative journalist"
+                         width="260" height="260" loading="lazy">
+                </div>
+                <div class="hero-text">
+                    <h1>Introducing Mark Wieting</h1>
+                    <p class="intro">
+                        I am an investigative journalist and documentary director with over 25 years of experience
+                        in Spanish television, working across Antena 3, La Sexta, Tele 5, TVE, and regional channels
+                        as reporter, scriptwriter, and director. My work spans landmark true crime series —
+                        including <em>¿Dónde está Marta?</em> (Netflix) and <em>Anglés: Historia de una fuga</em>
+                        (Atresplayer/Netflix) — as well as the recently completed show <em>Territorio Pampliega</em>
+                        for Cuatro. Based in Madrid, I am currently developing new documentary projects at
+                        <strong>Factoría Henneo</strong>, always in pursuit of stories that demand rigorous
+                        investigation and powerful narrative.
+                    </p>
+                    <div class="credits">
+                        <span><i class="fa fa-film"></i> <em>¿Dónde está Marta?</em> — Netflix</span>
+                        <span><i class="fa fa-film"></i> <em>Anglés: Historia de una fuga</em> — Atresplayer / Netflix</span>
+                        <span><i class="fa fa-film"></i> <em>El mago del vino</em> — Mediaset</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOURNALISM STORIES -->
+        <section class="stories">
+            <div class="container">
+                <h2>Three Stories That Inspire My Journalism</h2>
+                <p class="section-sub">These investigations represent the depth, courage, and public
+                impact I aspire to in my own work.</p>
+
+                <div class="story-grid">
+
+                    <article class="story-card">
+                        <div class="story-source">The New York Times</div>
+                        <h3>
+                            <a href="https://www.nytimes.com/spotlight/visual-investigations"
+                               target="_blank" rel="noopener noreferrer">
+                                NYT Visual Investigations: War Crimes &amp; Accountability
+                            </a>
+                        </h3>
+                        <p>
+                            The Times's Visual Investigations unit uses open-source imagery, satellite data,
+                            and forensic video analysis to hold the powerful accountable — from Gaza to Ukraine.
+                            For me, this represents journalism's highest purpose: making the invisible visible
+                            with irrefutable evidence. As a documentary maker, their methodology of building a
+                            visual argument frame by frame is directly applicable to the screen.
+                        </p>
+                        <a class="story-link" href="https://www.nytimes.com/spotlight/visual-investigations"
+                           target="_blank" rel="noopener noreferrer">
+                            Read the investigation <i class="fa fa-external-link"></i>
+                        </a>
+                    </article>
+
+                    <article class="story-card">
+                        <div class="story-source">The Guardian</div>
+                        <h3>
+                            <a href="https://www.theguardian.com/media/2025/may/23/mossad-investigation-guardian-uk-press-awards"
+                               target="_blank" rel="noopener noreferrer">
+                                The Mossad &amp; the ICC: A Covert War on International Justice
+                            </a>
+                        </h3>
+                        <p>
+                            The Guardian revealed how Israeli intelligence allegedly intimidated the ICC's chief
+                            prosecutor to derail war crimes investigations — a cross-border scoop awarded at the
+                            2025 UK Press Awards. This story exemplifies the kind of source-driven, politically
+                            risky investigation that changes the course of events — exactly the journalism I
+                            strive for in my own work.
+                        </p>
+                        <a class="story-link"
+                           href="https://www.theguardian.com/media/2025/may/23/mossad-investigation-guardian-uk-press-awards"
+                           target="_blank" rel="noopener noreferrer">
+                            Read the investigation <i class="fa fa-external-link"></i>
+                        </a>
+                    </article>
+
+                    <article class="story-card">
+                        <div class="story-source">El País (English)</div>
+                        <h3>
+                            <a href="https://english.elpais.com/elpais/2018/02/05/inenglish/1517826767_773832.html"
+                               target="_blank" rel="noopener noreferrer">
+                                The Odebrecht Scandal: Corruption Across 12 Countries
+                            </a>
+                        </h3>
+                        <p>
+                            El País uncovered how the Odebrecht construction giant paid bribes to the presidents
+                            of 12 Latin American countries, leading to multiple arrests. For a Spanish-speaking
+                            journalist, this investigation is a landmark: it shows that our language's newsrooms
+                            can lead global accountability reporting. The scale — and the human cost — reminds me
+                            why investigative journalism matters beyond borders.
+                        </p>
+                        <a class="story-link"
+                           href="https://english.elpais.com/elpais/2018/02/05/inenglish/1517826767_773832.html"
+                           target="_blank" rel="noopener noreferrer">
+                            Read the investigation <i class="fa fa-external-link"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Mark Wieting · Factoría Henneo · Madrid</p>
+        </div>
+    </footer>
 
     <!-- Your javascript should be called here -->
 </body>
-
 </html>
